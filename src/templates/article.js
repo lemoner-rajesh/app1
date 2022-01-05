@@ -7,7 +7,7 @@ const Article = ({data}) => {
     return(
         <div style={{maxWidth:"600px", margin:"0 auto", backgroundColor:"#ccc", padding:"50px"}}>
      <h1>{post.title}</h1>
-     <img src={post.relationships.field_image.localFile.url} />
+     {/* <img src={post.relationships.field_image.localFile.url} /> */}
      <div dangerouslySetInnerHTML={{__html:post.body.processed}} />
 
         </div>
