@@ -8,7 +8,7 @@ module.exports = {
       resolve: `gatsby-source-drupal`,
       options: {
         baseUrl: `https://dev-drupal-lemon.pantheonsite.io/`,
-        secret: process.env.PREVIEW_SECRET,
+        secret: `https://app1main97362.gatsbyjs.io/`,
         fastBuilds: true,
       },
       
